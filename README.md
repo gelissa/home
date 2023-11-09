@@ -1,1 +1,1 @@
-<img width="1651" alt="image" src="https://github.com/gelissa/Website-2023/assets/37284788/a00bba6c-e350-4740-a391-83b032f20fb2">
+<img width="1417" alt="image" src="https://github.com/gelissa/home/assets/37284788/44d410b5-7f69-4f1a-b77b-b4216bd2a085">
