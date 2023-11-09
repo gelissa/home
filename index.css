@@ -44,17 +44,15 @@
 
   .header {
     background: transparent;
-    bottom: 10px;
     width: 50%;
     font-style: italic;
     font-size: 4.5rem;
-    transition: text-emphasis 2s;
   }
 
   .header:hover {
-    font-style: normal;
     color: #eb6262;
     text-emphasis: open;
+    transform: rotate(5deg);
   }
 
   .line {
