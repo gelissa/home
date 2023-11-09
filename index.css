@@ -8,14 +8,15 @@
     position: absolute;
     z-index: 3;
     margin: 25px;
-    /* width: 100%; */
+    width: 100vw;
     height: 80vh;
     display: grid;
     grid-template-columns: auto auto auto;
+    overflow-y: hidden;
   }
 
   a {
-    color: lightcoral;
+    color: #eb6262;;
     text-decoration: none;
   }
 
@@ -47,33 +48,40 @@
     width: 50%;
     font-style: italic;
     font-size: 4.5rem;
+    transition: text-emphasis 2s;
+  }
+
+  .header:hover {
+    font-style: normal;
+    color: #eb6262;
+    text-emphasis: open;
   }
 
   .line {
-    border-left: 3px solid black;
-    margin: 4px 0px 4px 0px;
+    border-left: 2px solid black;
     transform: translate(-119px, 42px) rotate(7deg);
     background: transparent;
+    position: relative;
+    right: 101%;
   }
 
-  .body {
-    top: 210px;
+  .about {
+    width: 40vw;
+    height: fit-content;
+    top: 20%;
+    right: 15%;
     position: relative;
     font-family: "EB Garamond";
-    font-size: 2rem;
+    font-size: 3vw;
     background: transparent;
   }
 
   .gradient {
-    background: linear-gradient(
-      345deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(238, 238, 238, 1) 56%
-    );
+    background: linear-gradient( 345deg, rgb(2 0 36 / 64%) 0%, rgba(238, 238, 238, 1) 56% );
     position: absolute;
     z-index: -1;
     width: 100%;
     height: 100vh;
     opacity: 0.5;
-    box-shadow: 11px -12px 16px 15px #eeeeee inset;
-  }
+    box-shadow: 11px -12px 16px 15px #eeeeee inset;  
+}
